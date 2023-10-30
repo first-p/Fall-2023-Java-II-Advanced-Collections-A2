@@ -16,6 +16,16 @@ public class Proj02Runner implements Comparable<Proj02Runner> {
     }
 
     // Overloaded constructor that takes an integer parameter
+    public Proj02Runner(int value) {
+        this.value = value;
+    }
+
     // Getter method for the value
+
+
     // Implement the compareTo method of the Comparable interface
+
+
     // Override the toString method to provide a meaningful string representation
+
+}
