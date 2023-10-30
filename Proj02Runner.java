@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Proj02Runner implements Comparable<Proj02Runner> {
 
-    // Instance variable to store the value
+    // Private instance variable to store the value
     private int value;
 
     // Default constructor
@@ -12,7 +12,7 @@ public class Proj02Runner implements Comparable<Proj02Runner> {
         System.out.println("I certify that this program is my own work\n" +
                 "and is not the work of others. I agree not\n" +
                 "to share my solution with others.\n" +
-                " Fred Butoma\n" );
+                "Fred Butoma\n" );
     }
 
     // Overloaded constructor that takes an integer parameter
