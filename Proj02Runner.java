@@ -41,7 +41,8 @@ public class Proj02Runner implements Comparable<Proj02Runner> {
         return Objects.hash(value);
     }
 
-    // Implement the compareTo method of the Comparable interface
+    // Implement the compareTo method of the Comparable interface which is essential for
+    //sorted collections like TreeSet
     @Override
     public int compareTo(Proj02Runner other) {
         return Integer.compare(this.value, other.getValue());
