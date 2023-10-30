@@ -32,5 +32,8 @@ public class Proj02Runner implements Comparable<Proj02Runner> {
     }
 
     // Override the toString method to provide a meaningful string representation
-
+    @Override
+    public String toString() {
+        return Integer.toString(value);
+    }
 }
