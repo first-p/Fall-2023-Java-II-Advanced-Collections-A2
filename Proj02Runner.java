@@ -15,7 +15,7 @@ public class Proj02Runner implements Comparable<Proj02Runner> {
                 "Fred Butoma\n" );
     }
 
-    // Overloaded constructor that takes an integer parameter
+    // Overload constructor that takes an integer parameter
     public Proj02Runner(int value) {
         this.value = value;
     }
