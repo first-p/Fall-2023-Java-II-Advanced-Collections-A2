@@ -26,7 +26,10 @@ public class Proj02Runner implements Comparable<Proj02Runner> {
     }
 
     // Implement the compareTo method of the Comparable interface
-
+    @Override
+    public int compareTo(Proj02Runner other) {
+        return Integer.compare(this.value, other.getValue());
+    }
 
     // Override the toString method to provide a meaningful string representation
 
