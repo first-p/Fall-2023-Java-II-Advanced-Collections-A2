@@ -24,7 +24,7 @@ public class Proj02Runner implements Comparable<Proj02Runner> {
     public int getValue() {
         return value;
     }
-    // Override the equals method to provide consistent behavior when the collection has duplicates
+    // Override the equals method to provide consistent behavior when there are duplicate elements
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -33,8 +33,13 @@ public class Proj02Runner implements Comparable<Proj02Runner> {
         return value == other.value;
     }
 
-    // Override the hashCode method as it is recommended to do so whenever equals is overridden
-
+    // Override the hashCode method as it is recommended to do so whenever equals is overridden to ensure
+    // that duplicate elements have the same hash code which is important for searching hash-based collections
+    //such as a hashSet
+    @Override
+    public int hashCode() {
+        return Objects.hash(value);
+    }
 
     // Implement the compareTo method of the Comparable interface
     @Override
