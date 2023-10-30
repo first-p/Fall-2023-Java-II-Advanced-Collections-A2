@@ -21,7 +21,9 @@ public class Proj02Runner implements Comparable<Proj02Runner> {
     }
 
     // Getter method for the value
-
+    public int getValue() {
+        return value;
+    }
 
     // Implement the compareTo method of the Comparable interface
 
